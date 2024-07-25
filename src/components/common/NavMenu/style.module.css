@@ -1,0 +1,81 @@
+.navMenu {
+  border-top: 3px solid #180101;
+  padding: 20px;
+}
+
+.navMenuList {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+}
+
+.navMenuItem {
+  font-size: 20px;
+  padding: 0 34px;
+}
+
+.thisMonth,
+.seaTours,
+.anonce,
+.photo,
+.contacts {
+  position: relative;
+}
+
+.photo, .contacts {
+  padding: 0 38px;
+}
+
+.thisMonth::before,
+.seaTours::before,
+.anonce::before,
+.photo::before,
+.contacts::before {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.thisMonth::before {
+  width: 24px;
+  height: 24px;
+  bottom: 4px;
+  background-image: url('../../../assets/images/nav-menu/month.svg');
+}
+
+.seaTours::before {
+  background-image: url('../../../assets/images/nav-menu/sea-tours.svg');
+}
+
+.anonce::before {
+  background-image: url('../../../assets/images/nav-menu/anonce.svg');
+  bottom: 3px;
+}
+
+.photo::before {
+  background-image: url('../../../assets/images/nav-menu/photo.svg');
+  bottom: 8px;
+}
+
+.contacts::before {
+  background-image: url('../../../assets/images/nav-menu/contacts.svg');
+  bottom: 3px;
+}
+
+.link { 
+  color: inherit;
+  text-decoration: none;
+}
+
+/* .link:active {
+  border-bottom: 3px solid #180101;
+} */

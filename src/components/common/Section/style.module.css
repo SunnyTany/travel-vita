@@ -1,0 +1,31 @@
+.section {
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 7px 5px rgba(0, 0, 0, 0.2);
+  background-color: #f3efeb;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.img {
+  margin: 25px 0;
+  border-radius: 15px;
+}
+
+.body {
+  font-size: 18px;
+}
+
+.footer {
+  margin: 20px 0;
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}

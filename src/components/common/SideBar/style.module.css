@@ -1,0 +1,44 @@
+.aside {
+  width: 400px;
+  background: #ebf1dc;
+  padding: 20px;
+}
+
+.item {
+  list-style: none;
+  margin: 25px 0;
+}
+
+.item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 transparent;
+}
+
+.item a:hover {
+  transform: scale(1.05);
+  color: #0d2c49;
+  box-shadow: 1px 3px 5px #437cb3;
+}
+
+.title {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.date {
+  display: block;
+  transition: all .4s ease-in-out;
+}
+
+/* .date:hover {
+  transform: scale(1);
+} */

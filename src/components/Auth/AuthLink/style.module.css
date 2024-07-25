@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.btnAuth {
+  padding: 10px 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 0 transparent;
+  border-radius: 25px;
+  background-color: #f7a71c;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}
