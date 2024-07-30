@@ -1,0 +1,6 @@
+.wrapper {
+  border-radius: 10px;
+  border: 2px dashed #ccc;
+  padding: 60px;
+  margin: 30px;
+}

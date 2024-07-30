@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "src/interface/DataSectionSeaTours.interface.ts"],
+  "include": ["src", "src/interface/Tour.interface.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

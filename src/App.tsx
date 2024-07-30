@@ -1,9 +1,6 @@
 import { BrowserRouter as Router } from 'react-router-dom'
-// import Header from './components/common/Header'
-// import Main from './components/common/Main'
-// import Footer from './components/common/Footer'
-import AdminPage from './components/pages/AdminPage'
-import UserPage from './components/pages/UserPage'
+import AdminPage from './pages/AdminPage'
+import UserPage from './pages/UserPage'
 import './App.css'
 
 function App() {
@@ -14,9 +11,6 @@ function App() {
     <>
       <Router>
         {isAdmin ? <AdminPage /> : <UserPage />}
-        {/* <Header/>
-        <Main/>
-        <Footer/> */}
       </Router>
     </>
   )

@@ -1,0 +1,17 @@
+.btn {
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: 2px solid #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  background-color: #f7a71c;
+  margin-top: 20px;
+  transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #1f7177;
+  color: #fff;
+  letter-spacing: 3px;
+}
